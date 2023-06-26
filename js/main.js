@@ -29,9 +29,9 @@ var gameover=document.getElementById("sound-gameover");
     var bIsAndroid = sUserAgent.match(/android/i) == "android";
     var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
     var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
-    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
-        alert("检测到为PC浏览\n打开影响式设计模式（Ctrl+Shift+M ）正常浏览（最好选iphone X/XS）")
-    }
+    // if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
+    //     alert("检测到为PC浏览\n打开影响式设计模式（Ctrl+Shift+M ）正常浏览（最好选iphone X/XS）")
+    // }
     
 /*
  创建飞机类
