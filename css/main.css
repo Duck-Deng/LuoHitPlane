@@ -1,3 +1,5 @@
+@import url('https://fonts.loli.net/css2?family=Kanit&family=Noto+Sans+SC:wght@400&family=Oswald&family=Teko:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -33,6 +35,7 @@ button {
     top: 80%;
     left: 50%;
     transform: translate(-50%, 0);
+
 }
 
 #maindiv {
@@ -70,15 +73,18 @@ button {
     display: none;
     z-index: 2;
     transform: translate(-50%, -50%);
+    align-items: center;
 }
 
 #suspenddiv button {
     width: 150px;
-    height: 30px;
     margin-bottom: 20px;
-    border: 1px solid black;
-    border-radius: 30px;
-    background-color: #c4c9ca;
+    border-radius: 10px;
+    background-color: #20c997;
+    border-color: #20c997;
+    font-size: 20px;
+    font-family: 'Noto Sans SC';
+    display: block;
 }
 
 #ourplan {}
@@ -99,8 +105,6 @@ button {
 @font-face {
     font-family: 'BianTaoTi';
     src: url('https://font.junjiantech.top/ALi/AlimamaShuHeiTi/AlimamaShuHeiTi-Bold.woff2');
-    font-style: normal;
-    font-weight: normal;
 }
 
 .plantext {
@@ -119,8 +123,9 @@ button {
     line-height: 80px;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-    font-size: 50px;
+    font-size: 40px;
     font-family: BianTaoTi;
+    color: #f5222d;
 }
 
 #enddiv div {
